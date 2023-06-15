@@ -1,0 +1,16 @@
+.table {
+    margin: 2rem auto;
+    padding: 1rem;
+    border-spacing: 1rem;
+    text-align: right;
+    table-layout: fixed;
+}
+
+tr td, tr th {
+    padding: 0 10px;
+}
+
+.head {
+    color: hwb(157 48% 17%);
+    font-size: 0.8rem;
+}
