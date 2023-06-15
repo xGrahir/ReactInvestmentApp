@@ -3,8 +3,9 @@ import styles from './SummaryTable.module.css'
 import TableItem from './TableItem'
 
 const SummaryTable = props => {
-
-    let currentTable = props.data.map(data => <TableItem data={data} key={Math.random()}></TableItem>)
+	let currentTable = props.data.map(data => {
+		return <TableItem data={data} key={Math.random()}></TableItem>
+	})
 
 	return (
 		<table className={styles.table}>
@@ -18,7 +19,7 @@ const SummaryTable = props => {
 				</tr>
 			</thead>
 			<tbody>
-                {currentTable}
+				{currentTable}
 				{/* <tr>
 					<td>1</td>
 					<td>$11,700,00</td>
