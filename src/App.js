@@ -20,10 +20,10 @@ function App() {
 
 		for (let i = 0; i < data.years; i++) {
 			calculated.push({
-        year: i+1,
+        		year: i+1,
 				totalCapital: totalCapital.toFixed(2),
-				interest: interest.toFixed(),
-				totalInterest: totalInterest.toFixed(),
+				interest: interest.toFixed(2),
+				totalInterest: totalInterest.toFixed(2),
 				investedCapital: investedCapital.toFixed(2),
 			})
 
